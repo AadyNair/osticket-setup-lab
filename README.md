@@ -2,7 +2,7 @@
 
 This project documents the setup of an open-source helpdesk system (osTicket) on an Amazon EC2 instance using a LAMP stack (Linux, Apache, MariaDB, PHP).
 
-## ✅ Environment
+## Environment
 
 - **OS**: Amazon Linux 2023 (EC2 t2.micro)
 - **Web Server**: Apache
@@ -10,7 +10,7 @@ This project documents the setup of an open-source helpdesk system (osTicket) on
 - **PHP**: PHP 8.1+ with necessary extensions
 - **App**: osTicket v1.18.1
 
-## ⚙️ Steps Completed
+## Steps Completed
 
 ### 1. EC2 Instance Setup
 - Created key pair and connected via SSH
