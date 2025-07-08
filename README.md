@@ -25,7 +25,7 @@ This project documents the setup of an open-source helpdesk system (osTicket) on
 ### 3. Database Setup
 ```sql
 CREATE DATABASE osticket;
-CREATE USER 'osticketuser'@'localhost' IDENTIFIED BY 'StrongPass123!';
+CREATE USER 'osticketuser'@'localhost' IDENTIFIED BY 'YourStrongPasswordHere';
 GRANT ALL PRIVILEGES ON osticket.* TO 'osticketuser'@'localhost';
 FLUSH PRIVILEGES;
 
